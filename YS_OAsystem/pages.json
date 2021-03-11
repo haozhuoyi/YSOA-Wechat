@@ -19,13 +19,13 @@
 			}
 		},
 		{
-			"path":"pages/addressEdit/addressEdit",
+			"path":"pages/address/addressEdit/addressEdit",
 			"style" : {
 				"navigationBarTitleText": "编辑地址"
 			}
 		},
 		{
-			"path":"pages/equipmentEdit/equipmentEdit",
+			"path":"pages/equipment/equipmentEdit/equipmentEdit",
 			"style" : {
 				"navigationBarTitleText": "设备登记"
 			}
@@ -37,7 +37,7 @@
 			}
 		},
 		{
-			"path":"pages/myEdit/myEdit",
+			"path":"pages/mine/myEdit/myEdit",
 			"style" : {
 				"navigationBarTitleText": "自我介绍"
 			}
@@ -49,7 +49,7 @@
 			}
 		},
 		{
-			"path":"pages/conferenceRoomAdd/conferenceRoomAdd",
+			"path":"pages/conferenceRoom/conferenceRoomAdd/conferenceRoomAdd",
 			"style" : {
 				"navigationBarTitleText": "会议室申请"
 			}

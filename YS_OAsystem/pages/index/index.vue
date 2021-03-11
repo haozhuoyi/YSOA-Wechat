@@ -116,8 +116,8 @@
 				// 用户姓名
 				userName:"",
 				// 走马灯图片
-				BUrl: require("../../assets/img/8-1.jpeg"),
-				AUrl: require("../../assets/img/logo.jpg")
+				BUrl: require("../../static/img/8-1.jpeg"),
+				AUrl: require("../../static/img/logo.jpg")
 			}
 		},
 		methods: {
