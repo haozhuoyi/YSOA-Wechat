@@ -80,7 +80,15 @@
 							<view class="text_view_down">护照信息登陆</view>
 						</view>
 					</view>
-					<view></view>
+					<view class="solo_view_right" @click="businessCardClick">
+						<view class="icon_view">
+							<uni-icons type="scan" size="25" color="#898989"></uni-icons>
+						</view>
+						<view class="text_view">
+							<view class="text_view_up">名片</view>
+							<view class="text_view_down">名片扫描查看</view>
+						</view>
+					</view>
 				</view>
 				<view class="row_view">
 					<view class="solo_view_left"></view>
@@ -296,6 +304,14 @@
 			passPortClick(){
 				uni.navigateTo({
 					url: '../passPort/passPort',
+					success: res => {},
+					fail: () => {},
+					complete: () => {}
+				});
+			},
+			businessCardClick(){
+				uni.navigateTo({
+					url: '../businessCard/businessCard',
 					success: res => {},
 					fail: () => {},
 					complete: () => {}

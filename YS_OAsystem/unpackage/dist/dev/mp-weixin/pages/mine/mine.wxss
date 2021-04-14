@@ -1,0 +1,77 @@
+
+.view-outside{
+	background: #f1f1f1;
+	height: 100vh;
+}
+.view-main{
+	background: white;
+}
+.view-content{
+	width: calc(100vw - 20px);
+	margin: auto;
+	height: 100%;
+}
+.view-title{
+	height: 65px;
+}
+.view-titleUp{
+	height: 40px;
+	width: 100%;
+}
+.view-titleContent{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.view-titleDown{
+	float: left;
+	height: 25px;
+	font-size: 11px;
+	color: #898989;
+}
+.view-head{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: #f1f1f1 1px solid;
+}
+.head-title{
+	float: left;
+}
+.head-pic{
+	float: right;
+	height: 50px;
+}
+.head-icon{
+	float: right;
+	line-height: 50px;
+}
+.head-text{
+	float: right;
+	color: #898989;
+	margin-right: 5px;
+}
+.view-password{
+	height: 50px;
+	line-height: 50px;
+	color: rgb(180,27,18);
+	text-align: center;
+}
+.image-user{
+	height: 30px;
+	width: 30px;
+	margin-top: 10px;
+}
+.popup_success{
+	text-align: center;
+	width: 100vw;
+	height: 30px;
+	line-height: 30px;
+	background-color: rgb(180,27,18);
+	color: white;
+	-webkit-transition: opacity 1s linear;
+	transition: opacity 1s linear;
+	position: absolute
+}
+

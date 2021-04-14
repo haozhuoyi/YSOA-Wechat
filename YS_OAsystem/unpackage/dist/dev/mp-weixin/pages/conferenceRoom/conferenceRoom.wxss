@@ -1,0 +1,140 @@
+
+.view-main{
+	width: 100%;
+	height: 100vh;
+	background-color: #f1f1f1;
+}
+.view-dateList{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+}
+.view-item{
+	float: left;
+	width: 14.28%;
+}
+.view-week{
+	width: 100%;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+}
+.view-date{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.view-back{
+	width: 30px;
+	height: 30px;
+	margin: auto;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+.view-point{
+	width: 100%;
+	height: 10px;
+	line-height: 10px;
+}
+.point{
+	width: 4px;
+	height: 4px;
+	background-color: #646566;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	margin: 3px auto;
+}
+.view-dateShow{
+	width:100%;
+	height: 25px;
+	background: white;
+	-webkit-box-shadow:0 5px 10px -5px #7A7E83;
+	        box-shadow:0 5px 10px -5px #7A7E83;
+	margin-top: 5px;
+	text-align: center;
+	line-height: 25px;
+}
+.view-conferenceInfo{
+	padding: 0 5px;
+}
+.view-add{
+	width: calc(100% - 10px);
+	height: 40px;
+	background-color: rgb(180,27,18);
+	text-align: center;
+	line-height: 40px;
+	margin-top: 5px;
+	-webkit-border-radius: 2%;
+	        border-radius: 2%;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+.view-info{
+	width: 100%;
+	height: 120px;
+	background-color: white;
+	-webkit-border-radius: 2%;
+	        border-radius: 2%;
+	margin-bottom: 5px;
+}
+.view-detail{
+	float: left;
+	width: calc(100% - 101px);
+	height: 100%;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.view-time{
+	float: left;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	width: 100px;
+	height: 100%;
+	border-right: 1px solid rgb(180,27,18);
+	text-align: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.popup_view{
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+	line-height: 100vh;
+	text-align: center;
+}
+.progress{
+	width: 200px;
+	margin: auto;
+}
+.popup_success{
+	text-align: center;
+	width: 100vw;
+	height: 30px;
+	line-height: 30px;
+	background-color: rgb(180,27,18);
+	color: white;
+	-webkit-transition: opacity 1s linear;
+	transition: opacity 1s linear;
+	position: absolute
+}
+
+

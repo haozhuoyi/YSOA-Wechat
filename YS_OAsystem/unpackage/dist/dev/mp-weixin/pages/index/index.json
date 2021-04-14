@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "YS-OA内部系统",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

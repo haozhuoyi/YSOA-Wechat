@@ -1,0 +1,156 @@
+
+.title{
+	width: 100%;
+	height: 30px;
+	background-color: white;
+}
+.title-left{
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+.title-mid{
+	float: left;
+	width: 40%;
+	height: 100%;
+	line-height: 30px;
+	text-align: center;
+}
+.title-right{
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+.view-main{
+	background-color: #f1f1f1;
+	overflow: hidden;
+	height: 100vh;
+}
+.check{
+	margin: 5px;
+	padding: 5px;
+	width:calc(100% - 20px);
+	background-color: white;
+	height: 80px;
+}
+.check-content{
+	padding: 5px;
+	width:100%;
+	background-color: white;
+	height: 80px;
+}
+.check1{
+	width: 25%;
+	height: 50%;
+	line-height: 40px;
+	float: left;
+}
+.list-item{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	margin-bottom: 5px;
+}
+.item-left{
+	float: left;
+	text-align: center;
+	border-right: rgb(180,27,18) solid 1px;
+	width: 70px;
+	line-height: 50px;
+}
+.item-mid{
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	width: calc(100% - 162px);
+}
+.icons-left{
+	float: right;
+	line-height: 30px;
+}
+.icons-right{
+	float: left;
+	line-height: 30px;
+}
+.text-time{
+	float:left;
+	color:rgb(180,27,18);
+}
+.text-h{
+	margin-left: 5px;
+	float:left;
+}
+.picker-left{
+	float: left;
+	margin-right: 5px;
+	width: 40%;
+}
+.arrow{
+	float: right;
+}
+.picker-right{
+	float: left; 
+	line-height: 50px; 
+	margin-right: 5px;
+}
+.scroll-Y{
+	height: calc(100vh - 200px);
+}
+.text-onTime{
+	float: left;
+	text-align: center;
+	width: calc(100% - 16px);
+}
+.view-summary{
+	float: left;
+	text-align: center;
+	width: 68px;
+}
+.view-button{
+	position: absolute;
+	bottom: 0;
+}
+.button-confirm{
+	width: 100vw;
+	height: 70px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	-webkit-border-radius: 0;
+	        border-radius: 0;
+}
+.popup_success{
+	text-align: center;
+	width: 100vw;
+	height: 30px;
+	line-height: 30px;
+	background-color: rgb(180,27,18);
+	color: white;
+	position: absolute
+}
+.item-right{
+	float: right;
+	border-left: rgb(180,27,18) solid 1px;
+	width: 90px;
+}
+.picker-mid{
+	float: left;
+	margin-left: 5px;
+	width: 40%;
+}
+.scroll-X{
+	width: 100%;
+	height: 100%;
+}
+.arrow-right{
+	position: fixed;
+	right: 10px;
+	background: rgba(0,0,0,0.4);
+	opacity: 0.3;
+	width: 25px;
+	height: 80px;
+}
+.icons-right2{
+	line-height: 80px;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "设备列表",
+  "usingComponents": {
+    "drag-button": "/components/drag-button/drag-button",
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

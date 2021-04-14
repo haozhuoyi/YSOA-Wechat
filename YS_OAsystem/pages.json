@@ -65,6 +65,12 @@
 			"style" : {
 				"navigationBarTitleText": "我的护照"
 			}
+		},
+		{
+			"path":"pages/businessCard/businessCard",
+			"style" : {
+				"navigationBarTitleText": "名片"
+			}
 		}
 		
     ],

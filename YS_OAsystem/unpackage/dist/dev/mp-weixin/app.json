@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/equipment/equipment",
+    "pages/address/address",
+    "pages/address/addressEdit/addressEdit",
+    "pages/equipment/equipmentEdit/equipmentEdit",
+    "pages/mine/mine",
+    "pages/mine/myEdit/myEdit",
+    "pages/conferenceRoom/conferenceRoom",
+    "pages/conferenceRoom/conferenceRoomAdd/conferenceRoomAdd",
+    "pages/workAttendance/workAttendance",
+    "pages/passPort/passPort",
+    "pages/businessCard/businessCard"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#d52016",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/template.png",
+        "selectedIconPath": "static/templateHL.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/extui.png",
+        "selectedIconPath": "static/extuiHL.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

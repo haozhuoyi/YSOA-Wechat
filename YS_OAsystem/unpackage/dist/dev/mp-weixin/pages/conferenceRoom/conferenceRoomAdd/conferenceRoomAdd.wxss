@@ -1,0 +1,67 @@
+
+.view-main{
+	padding: 0px 10px 0px 20px;
+	border-bottom: #dcdcdc 3px solid;
+}
+.view-transport{
+	padding-top: 20px;
+	height: 40px;
+	border-bottom: #f1f1f1 1px solid;
+}
+.view-equipmentTitle{
+	float: left;
+	width: 20%;
+	color: rgb(180,27,18);
+}
+.view-longBorder {
+	float: left;
+	margin-left: 5px;
+	font-weight: bold;
+}
+.popup_success{
+	text-align: center;
+	width: 100vw;
+	height: 30px;
+	line-height: 30px;
+	background-color: rgb(180,27,18);
+	color: white;
+	-webkit-transition: opacity 1s linear;
+	transition: opacity 1s linear;
+	position: absolute
+}
+.view-shortBorder{
+	float: left;
+	margin-left: 5px;
+	font-weight: bold;
+}
+.view-memberBorder{
+	float: left;
+	margin-left: 5px;
+	width: calc(100vw - 20% - 40px);
+	font-weight: bold;
+	height: 80px;
+}
+.view-manPickerText{
+	float: left;
+	width: calc(100% - 20px);
+	height: 80px;
+}
+.view-conferenceMemo{
+	padding-top: 20px;
+	height: 80px;
+}
+.view-button{
+	position: absolute;
+	bottom: 0;
+}
+.button-confirm{
+	width: 100vw;
+	height: 70px;
+	background-color: rgb(180,27,18);
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	-webkit-border-radius: 0;
+	        border-radius: 0;
+}
+

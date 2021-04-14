@@ -1,0 +1,75 @@
+
+.view-main{
+	padding: 20px 10px 10px 20px;
+}
+.view-transport{
+	height: 70px;
+	border-bottom: #f1f1f1 1px solid;
+}
+.view-transTitle{
+	float: left;
+	width: 70px;
+	color: rgb(180,27,18);
+}
+.view-transInput{
+	float: left;
+}
+.input-trans{
+	font-weight: bold;
+	margin-left: 5px;
+}
+.view-address{
+	height: 102px;
+	margin-top: 20px;
+	border-bottom: #f1f1f1 1px solid;
+}
+.view-addressSel{
+	float: left;
+	margin-left: 5px;
+	width: calc(100% - 15px);
+	font-weight: bold;
+}
+.icons-pickers{
+	float: right;
+}
+.view-rightAddress{
+	float: left;
+	height: 102px;
+	width: calc(100% - 70px);
+}
+.view-firstAddress{
+	height: 40px;
+	border-bottom: #f1f1f1 1px solid;
+}
+.view-secondAddress{
+	margin-top: 20px;
+	height: 40px;
+}
+.view-distance{
+	height: 70px;
+	line-height: 70px;
+}
+.view-addressInput{
+	margin-top: 23px;
+	float: left;
+}
+.view-line{
+	height: 3px;
+	width: 100%;
+	background-color: #dcdcdc;
+}
+.view-button{
+	position: absolute;
+	bottom: 0;
+}
+.button-confirm{
+	width: 100vw;
+	height: 70px;
+	background-color: rgb(180,27,18);
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	-webkit-border-radius: 0;
+	        border-radius: 0;
+}
+

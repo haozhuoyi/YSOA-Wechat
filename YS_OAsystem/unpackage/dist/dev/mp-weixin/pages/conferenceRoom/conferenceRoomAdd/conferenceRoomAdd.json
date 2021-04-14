@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "会议室申请",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

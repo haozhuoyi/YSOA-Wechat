@@ -1,0 +1,98 @@
+
+.view-main{
+	padding: 20px 10px 0px 20px;
+}
+.view-transport{
+	height: 50px;
+	border-bottom: #f1f1f1 1px solid;
+}
+.view-transTitle{
+	float: left;
+	width: 70px;
+	color: rgb(180,27,18);
+}
+.input-trans{
+	font-weight: bold;
+	margin-left: 5px;
+}
+.view-address{
+	height: 51px;
+	margin-top: 20px;
+}
+.view-addressSel{
+	float: left;
+	width: 100%;
+	font-weight: bold;
+}
+.icons-pickers{
+	float: right;
+}
+.view-rightAddress{
+	float: left;
+	height: 51px;
+	width: calc(100% - 95px);
+	margin-left: 15px;
+}
+.view-firstAddress{
+	height: 40px;
+}
+.view-line{
+	height: 3px;
+	width: 100%;
+	background-color: #dcdcdc;
+}
+.view-button{
+	position: absolute;
+	bottom: 0;
+}
+.button-confirm{
+	width: 100vw;
+	height: 70px;
+	background-color: rgb(180,27,18);
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	-webkit-border-radius: 0;
+	        border-radius: 0;
+}
+.uni-input {
+	height: 50rpx;
+	padding: 15rpx 25rpx;
+	line-height:50rpx;
+	font-size:28rpx;
+	background:#FFF;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	float: left;
+	white-space: nowrap;
+	width:80%
+}
+.uni-list-cell-db {
+	float: left;
+	margin-left: 5px;
+	width: calc(100% - 85px);
+	font-weight: bold;
+}
+.view-equipmentTitle{
+	float: left;
+	width: 70px;
+	color: rgb(180,27,18);
+	padding-top: 8px;
+}
+.popup_success{
+	text-align: center;
+	width: 100vw;
+	height: 30px;
+	line-height: 30px;
+	background-color: rgb(180,27,18);
+	color: white;
+	-webkit-transition: opacity 1s linear;
+	transition: opacity 1s linear;
+	position: absolute
+}
+.icons-pickersA{
+	padding-top: 7px;
+	float: right;
+}
+
